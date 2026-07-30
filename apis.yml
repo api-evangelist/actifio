@@ -1,18 +1,56 @@
 aid: actifio
 name: Actifio
-description: Actifio is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Actifio is an enterprise data management company that pioneered "copy data management" (CDM)
+  built on its Virtual Data Pipeline (VDP) technology, letting organizations capture a single physical
+  copy of production data and instantly provision virtual copies for backup, disaster recovery, business
+  continuity, test/dev, and analytics. Founded in 2009 and headquartered in Waltham, Massachusetts, Actifio
+  was acquired by Google Cloud in December 2020. Its technology now underpins the Google Cloud Backup
+  and Disaster Recovery (Backup and DR) service and Actifio GO, delivering SaaS backup and DR for Google
+  Cloud and hybrid workloads. Actifio VDP exposes automation via a RESTful API and CLI on the appliance,
+  but there is no public developer portal, OpenAPI/Swagger specification, or published client SDK.
 url: https://raw.githubusercontent.com/api-evangelist/actifio/refs/heads/main/apis.yml
 x-type: company
 x-source: a16z-portfolio
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: absorbed-into-google-cloud
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.actifio.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Data Management
+- Backup
+- Disaster Recovery
+- Copy Data Management
+- Business Continuity
+- Cloud
+- Enterprise Storage
 apis: []
+common:
+- type: DomainSecurity
+  url: security/actifio-domain-security.yml
+- type: Website
+  url: https://www.actifio.com/
+- type: Documentation
+  url: https://docs.actifio.com/
+- type: Support
+  url: https://www.actifio.com/support.html
+- type: PrivacyPolicy
+  url: https://www.actifio.com/privacy.html
+- type: TermsOfService
+  url: https://www.actifio.com/assets/Clickthrough-EULA-9-23-19.pdf
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
