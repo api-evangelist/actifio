@@ -1,0 +1,19 @@
+generated: '2026-07-17'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.actifio.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 21 08:42:03 2026 GMT
+  hsts: false
+domains:
+- domain: actifio.com
+  dnssec: false
+  caa:
+  - 0 issuewild "pki.goog"
+  - 0 issue "pki.goog"
+  - 0 iodef "mailto:netops@actifio.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
