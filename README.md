@@ -64,6 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Actifio is a company surfaced as a portfolio company of a16z and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Actifio is an enterprise data management company that pioneered "copy data management" (CDM) built on its Virtual Data Pipeline (VDP) technology, letting organizations capture a single physical copy of production data and instantly provision virtual copies for backup, disaster recovery, business continuity, test/dev, and analytics. Founded in 2009 and headquartered in Waltham, Massachusetts, Actifio was acquired by Google Cloud in December 2020. Its technology now underpins the Google Cloud Backup and Disaster Recovery (Backup and DR) service and Actifio GO, delivering SaaS backup and DR for Google Cloud and hybrid workloads. Actifio VDP exposes automation via a RESTful API and CLI on the appliance, but there is no public developer portal, OpenAPI/Swagger specification, or published client SDK.
 
-Source: portfolio company of [a16z](https://github.com/api-evangelist/a16z)
+**Areas:** Company · Data Management · Backup · Disaster Recovery · Copy Data Management · Business Continuity · Cloud · Enterprise Storage
+
+## Actifio on APIs.io
+
+Everything profiled for Actifio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/actifio/](https://apis.io/providers/actifio/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Actifio Domain Security](https://apis.io/security/actifio/actifio-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.actifio.com/)
+- [Documentation](https://docs.actifio.com/)
+- [Support](https://www.actifio.com/support.html)
+- [Terms of service](https://www.actifio.com/assets/Clickthrough-EULA-9-23-19.pdf)
+- [Privacy policy](https://www.actifio.com/privacy.html)
+
+## API Evangelist rating
+
+**Kin Score 11.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/actifio/](https://apis.io/providers/actifio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Actifio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/actifio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
